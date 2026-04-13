@@ -115,7 +115,15 @@ I map this entire chain visually, on what I call an A2 layout where every depart
 
 **Live MIS dashboards run across all of this.**
 
-Not monthly reports. Not weekly summaries someone compiles in Excel. Real-time dashboards that show: current inventory position (raw material, packaging, WIP, finished goods), production status against schedule, dispatch status against orders, procurement pipeline with expected delivery dates, and sales performance against targets by vertical. Leadership (you, Vidur, and the department heads) should be able to open a screen at any point and know exactly where things stand. When something slips, the dashboard flags it before someone has to discover it manually.
+Not monthly reports. Not weekly summaries someone compiles in Excel. Real-time dashboards covering:
+
+- Current inventory position across raw material, packaging, WIP, and finished goods
+- Production status against schedule, batch by batch
+- Dispatch status against open orders with fill-rate and delay flags
+- Procurement pipeline with expected delivery dates and risk flags for slippage
+- Sales performance against targets by vertical, by brand, by channel
+
+Leadership (you, Vidur, department heads) opens a screen at any point and knows exactly where things stand. When something slips, the dashboard flags it before someone has to discover it manually.
 
 The dashboard will also give a clear product-wise view of ingredients. For any SKU in the portfolio, we can drill into exactly what ingredients and quantities it consumes, which brands and products share those ingredients, and what the current stock position is for each one. This is what makes formulation standardization and vendor consolidation decisions data-driven instead of guesswork.
 
@@ -183,43 +191,60 @@ With the architecture above as the destination, here's how the first 90 days unf
 
 **Days 1-30: Diagnose and Design**
 
-I'd spend most of this time in Himachal. Walk the plant, sit in the warehouse, understand the procurement cycle, watch how production scheduling actually happens versus how it's supposed to happen. Separately, sit with every department that touches Navision and figure out what's being used, what's being worked around, and what's missing.
+Most of this month is spent on the ground in Himachal, plus intensive department-by-department sessions.
 
-Full inventory assessment: raw materials, packaging, finished goods across every location. Aging, shelf life, movement velocity, accumulation patterns. This tells me the real state of operations faster than any report can.
+*Diagnose:*
+- Walk the plant, sit in the warehouse, shadow the procurement cycle, watch how production scheduling actually happens versus how it's supposed to.
+- Full inventory assessment across every location: raw materials, packaging, finished goods. Aging, shelf life, movement velocity, accumulation patterns.
+- Department-by-department Navision audit: what's being used, what's worked around, what's missing entirely.
+- Working sessions with Vidur and department heads to understand ownership, institutional knowledge, and change appetite. The core transformation team (3-4 people) reveals itself here.
+- Build the 3-year budget baseline with finance and commercial: historical revenue by product, channel, vertical, mapped against cost structures.
 
-In parallel, I'd work with finance and the commercial team to start building the 3-year budget framework, pulling historical revenue data by product, by channel, by vertical, and mapping it against cost structures to establish the baseline. You can't plan where you're going without being honest about where you are.
+*Start building immediately:*
+- Daily MIS report. Manual if necessary, structured and non-negotiable. Yesterday's production, dispatch, and inventory position in leadership's inbox every morning.
+- Power BI dashboard pulling from whatever data exists today (Navision extracts, spreadsheets, anything). Not pretty, but it surfaces stock position, aging, and movement for faster decisions.
 
-I'd also spend real time with Vidur and the department heads. Working sessions, not formal meetings. I need to understand who runs what, where the institutional knowledge lives, and who has the appetite to drive change. The 3-4 people who form the core transformation team will reveal themselves here.
-
-**What I'd start building immediately:**
-
-A daily MIS report. Manual if necessary, but structured and non-negotiable. Every morning, leadership sees yesterday's production, dispatch, and inventory position. The format mirrors what the automated system will produce. People start getting used to reading numbers daily instead of flying blind between monthly reviews.
-
-A basic BI dashboard (Power BI) pulling from whatever data exists today (Navision, spreadsheets, whatever). It won't be pretty, but it needs to show stock position, aging, and movement so we can make faster decisions while the bigger system overhaul is underway.
-
-**What I'd stop:**
-
-If procurement is happening without demand linkage, that stops immediately. Similarly, new SKU launches without a full business case (margin analysis, channel fit, cannibalization check) get paused. R&D pipeline stays active. Nothing enters production without going through the gate.
+*Stop immediately:*
+- Procurement without demand linkage, if the audit confirms it.
+- New SKU launches without a full business case (margin analysis, channel fit, cannibalization check). R&D pipeline stays active, but nothing enters production without going through the gate.
 
 ---
 
 **Days 31-60: Build the Framework**
 
-This is when the architecture described earlier gets committed to paper and to systems. The 3-year budget is locked (revenue, brand mix, channel targets, margin architecture). The organizational resource plan is built from that budget, with JD/KRA/KPI documented for every role. Darwinbox goes live as the HRMS backbone, with the AI task-scanning layer scheduled for Month 3-4.
+This is when the architecture described earlier gets committed to paper and to systems.
 
-On the product and supply side, the SKU profitability analysis completes, master products per segment are either identified or flagged for development, and the vendor and formulation overlap map is built. The warehouse consolidation blueprint is finalized with FIFO zones and batch traceability designed in. The A2 department integration map is documented.
+*Planning:*
+- 3-year budget locked: revenue targets by year, brand mix, channel assignments, margin architecture at SKU-channel level.
+- Organizational resource plan built from that budget: JD, KRA, KPI, capability requirement, and salary band documented for every role.
+- Darwinbox goes live as the HRMS backbone. AI task-scanning layer scoped for Month 3-4 deployment.
 
-Execution side: ERP modernization kicks off. Based on the audit, we finalize the path (Oracle ERP Cloud as the leading candidate, with Dynamics 365 Business Central as the alternate), define Phase 1 scope (inventory, production planning, procurement, dispatch, finance), bring in an implementation partner with Indian FMCG experience, and lock a go-live target.
+*Product and supply:*
+- SKU profitability analysis complete: we know which SKUs carry the business by channel, which are dead weight.
+- Master products per segment identified from the existing portfolio or flagged for development. Product family push-pull structures mapped.
+- Vendor and formulation overlap map built. Consolidation conversations with suppliers begin.
+- Warehouse consolidation blueprint finalized: FIFO zones, demand-weighted placement, batch traceability, expiry management designed into the layout.
+- A2 department integration map documented.
+
+*Systems:*
+- ERP modernization kicks off. Path finalized (Oracle ERP Cloud as the leading candidate, Dynamics 365 Business Central as the alternate).
+- Phase 1 scope defined: inventory, production planning, procurement, dispatch, finance.
+- Implementation partner with Indian FMCG experience engaged. Go-live target locked.
 
 ---
 
 **Days 61-90: Execute and Measure**
 
-Physical consolidation Phase 1 begins, likely finished goods warehousing into the new layout. This sets the template before we tackle raw material and production moves.
+*Physical execution:*
+- Consolidation Phase 1 begins, likely finished goods warehousing into the new layout. Sets the template before raw material and production moves.
+- First hires against the resource plan initiated.
+- Training programs for identified skill gaps designed and scheduled.
 
-First hires against the resource plan are initiated. Training programs for identified skill gaps begin. The AI performance tracker goes into pilot in 1-2 departments, scanning task completion against the weekly task sheets. The skin recommendation engine is scoped with a technical partner and a prototype timeline set.
+*Systems execution:*
+- AI performance tracker in pilot in 1-2 departments, scanning task completion against weekly task sheets.
+- Skin recommendation engine: data model scoped, technical partner engaged, prototype timeline set.
 
-**Day 90 is a proper checkpoint.** I sit down with you and Vidur and go through everything: what we found, what's done, what's in progress, what the next 90 days focus on. If something turned out harder than expected, better to say that clearly and adjust.
+*Day 90 checkpoint.* A working session with you and Vidur to walk through everything: what we found, what's done, what's in progress, what the next 90 days focus on. If something turned out harder than expected, we say so and adjust.
 
 
 ## How I Work
