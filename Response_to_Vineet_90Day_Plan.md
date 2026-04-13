@@ -13,7 +13,9 @@ You've laid out four areas. I'd reorder them, and the reason comes down to depen
 
 Consolidation sounds like the most urgent thing, and in many ways it is. But if you consolidate operations before you have visibility into what's actually moving, what's sitting, and what's costing you money, you end up moving the mess from one place to another. You need the control system first. Then you consolidate with data, not gut feel.
 
-Navision is installed, and it's a capable system at its core. But in most mid-size companies I've worked with, the ERP ends up being used for billing and maybe some inventory entry, while the real coordination happens over Excel, WhatsApp, and a few people who carry the entire picture in their heads. Whether that's the case at O3+ or not, I'll find out in the first two weeks. But the principle holds: get the single command system working first. Everything else runs on that foundation.
+I want to be direct about Navision. As installed today, it's effectively a dead end for where we need to go. It's a menu-driven, pre-SaaS system with no native dashboarding, minimal cloud capability, and older-generation APIs that don't integrate cleanly with e-commerce platforms, CRM tools, or modern third-party systems. Every integration needs middleware or heavy custom development, which is exactly the kind of patchwork that creates the manual-coordination problem we're trying to eliminate. Even where Navision is technically being used, the data doesn't surface in ways that support real-time decision-making, which is the whole point.
+
+So this isn't a Navision refresh. It's a migration to a modern SaaS-based ERP. My strong lean is towards Oracle ERP Cloud as the primary candidate. It's fully SaaS, cloud-native, dashboard-first across every module (with the one exception of POS, which we'd handle separately), has a robust open API layer for our e-commerce and marketplace integrations, and is built for the kind of process manufacturing, multi-brand, multi-channel operation O3+ is. Dynamics 365 Business Central is a reasonable alternative to evaluate, but Oracle's maturity in process manufacturing and channel-wise finance is where I'd put my money. The final call gets made after the Day 1-30 audit, but the direction is clear: we move off Navision, we don't try to rescue it.
 
 **Operations & Consolidation comes second.** Once I can see what's happening across plants and warehouses in real numbers, the consolidation towards Himachal becomes a project with clear cost benchmarks, not a logistics exercise based on estimates.
 
@@ -113,6 +115,22 @@ For aging inventory, we maintain a live aging sheet that categorizes everything 
 The goal isn't just to clear old stock. It's to build a system where old stock stops accumulating in the first place, because procurement is forecast-linked, production is demand-driven, and the MIS flags slow-moving items early enough to act before they become a problem.
 
 
+## The Lean Manufacturing Toolkit
+
+The ERP and MIS give us visibility. Lean manufacturing discipline is what actually moves the efficiency needle on the plant floor. For a multi-SKU cosmetics operation like Parwanoo, the specific tools I'd put in place:
+
+- **SMED (Single-Minute Exchange of Die):** With 200+ SKUs sharing production lines, changeover time between batches is one of the biggest hidden losses. SMED restructures changeover into internal and external steps so lines come back up faster. Typical target: cut changeover time by 40-50% within the first year.
+- **Value Stream Mapping:** Before optimizing any line, we map the full value stream for each product family to see where waste actually lives (waiting, over-production, excess inventory, rework, motion). This is what tells us which lean tools to apply where, rather than defaulting to generic programs.
+- **5S and Visual Factory:** Sort, Set in order, Shine, Standardize, Sustain. Sounds basic. It isn't. A disciplined 5S implementation on the shop floor, combined with visual andon boards showing line status, batch progress, and deviations in real time, is what makes the MIS dashboards meaningful at the operator level too.
+- **TPM (Total Productive Maintenance):** Equipment downtime kills yield. TPM moves maintenance from reactive to planned and brings operators into first-line equipment care. Pairs with OEE (Overall Equipment Effectiveness) as the tracking metric.
+- **Kanban and pull-based scheduling:** Once forecasting is reliable, production shifts from push (make to stock) to pull (make to demand signal). Reduces WIP, reduces finished goods inventory, improves freshness at dispatch. Especially valuable for the high-velocity SKUs.
+- **Poka-yoke (error proofing):** Particularly important in formulation dosing and labeling. Physical and system-enforced checks that make it impossible to use the wrong ingredient, the wrong packaging, or the wrong label on a batch.
+- **Kaizen cycles:** Weekly cross-functional improvement cycles owned by operators and supervisors, not consultants. Small, compounding improvements beat big-bang projects.
+- **MES layer (Manufacturing Execution System):** Sitting between the ERP and the shop floor. Captures real-time batch data, operator actions, equipment status, and quality checks. Feeds the MIS with live production data rather than end-of-shift manual entries.
+
+These aren't theoretical frameworks. Each one has a direct line to cost, quality, or throughput, and each one feeds structured data back into the MIS so we can measure whether the discipline is sticking. Rolled out in sequence (5S and VSM first, then SMED and TPM, then Kanban and MES integration), this is where a meaningful chunk of the 20-25% efficiency target gets delivered.
+
+
 ## Where the 20-25% Efficiency Comes From
 
 The target isn't a single lever. It's the compounding effect of formulation standardization, packaging rationalization, vendor consolidation, forecast-driven production, tighter inventory carrying costs, and channel-specific margin optimization. None of these are revolutionary on their own. The leverage is in running them as a connected system rather than piecemeal.
@@ -152,7 +170,7 @@ This is when the architecture described earlier gets committed to paper and to s
 
 On the product and supply side, the SKU profitability analysis completes, master products per segment are either identified or flagged for development, and the vendor and formulation overlap map is built. The warehouse consolidation blueprint is finalized with FIFO zones and batch traceability designed in. The A2 department integration map is documented.
 
-Execution side: ERP modernization kicks off. Based on the audit, we finalize the path (most likely Dynamics 365 Business Central), define Phase 1 scope (inventory, production planning, procurement, dispatch, finance), bring in an implementation partner with Indian FMCG experience, and lock a go-live target.
+Execution side: ERP modernization kicks off. Based on the audit, we finalize the path (Oracle ERP Cloud as the leading candidate, with Dynamics 365 Business Central as the alternate), define Phase 1 scope (inventory, production planning, procurement, dispatch, finance), bring in an implementation partner with Indian FMCG experience, and lock a go-live target.
 
 ---
 
