@@ -85,6 +85,22 @@ Once the product is locked (formulation, packaging, pricing, positioning), the 3
 The sales team then goes to each vertical with a clear brief: this is the product, this is how you pitch it, this is your target, and this is how success gets measured. Every sales vertical (salon B2B, modern trade, e-commerce, wholesale, export) has a different discourse, a different buyer psychology, and a different projection cycle. What works as a salon introduction won't work as an Amazon listing strategy. This gets planned, not improvised.
 
 
+## B2B Engagement: CRM and WATI Integration
+
+In the salon B2B channel specifically, keeping the business taut with our 50,000+ salon partners means two-way engagement that's real-time, documented, and persistent. We build this through a CRM interfaced with WATI (WhatsApp Business API), modulated through an API layer tailored to our use case.
+
+What this actually delivers to the salon partner:
+
+- **Training:** structured, bite-sized content delivered in WhatsApp-native formats to beauticians and salon staff, with progress tracking so we know who has consumed what and where follow-up is needed.
+- **Product detailing on demand:** any salon can pull the spec sheet, ingredient story, or application protocol of any O3+ or DermaCult product and get it instantly, formatted for use on the salon floor.
+- **Live comparison sheets:** same-category products from competition mapped side-by-side with our offering on ingredients, actives, price points, and claims. A salon professional pitching against L'Oreal Professionnel, Schwarzkopf, or Shahnaz gets the data they need without having to build it themselves.
+- **Product differentiation articulation:** the specific USPs, positioning, and "why this versus that" for every product, so the story being told on the salon floor is consistent and on-message, not improvised.
+
+This layer is what makes the salon relationship sticky. A salon that feels trained, informed, and better-equipped than what the competition provides doesn't churn easily. It also generates consumer-level signal we can't get otherwise, which products are being recommended, what questions are coming up, what objections are being raised, and that feedback closes back into brand management for the next product cycle.
+
+**The B2C extension.** The same CRM and WATI architecture culminates, in the next phase, into a direct B2C customer interface at POS and online sales. A consumer who buys at a salon, at a modern trade counter with POS integration, or through our D2C site gets onboarded into the same loop: welcome flow, usage guidance, follow-up product recommendations, and the skin prescription engine we're building into the same pipeline. The salon relationship stays central, but we stop losing the end-consumer identity the moment the product leaves the salon. That data, over time, becomes one of the most valuable assets on the commercial side.
+
+
 ## Supply Chain Integration and Live MIS Control
 
 Everything I've described above (budget planning, resource deployment, product development, multi-vertical sales) collapses if the supply chain can't deliver.
