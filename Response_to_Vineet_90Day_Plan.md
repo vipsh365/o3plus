@@ -113,18 +113,9 @@ For aging inventory, we maintain a live aging sheet that categorizes everything 
 The goal isn't just to clear old stock. It's to build a system where old stock stops accumulating in the first place, because procurement is forecast-linked, production is demand-driven, and the MIS flags slow-moving items early enough to act before they become a problem.
 
 
-## Cost Efficiency Through Integrated Execution
+## Where the 20-25% Efficiency Comes From
 
-The 20-25% efficiency improvement you've mentioned doesn't come from any single lever. It comes from all of the above working together:
-
-- **Formulation standardization:** where multiple products across brands share a common base, we consolidate raw material procurement, reduce production changeover time, and negotiate better supplier rates on larger volumes.
-- **Packaging rationalization:** common formats across products and brands wherever consumer-facing differentiation isn't compromised. This means fewer packaging SKUs to manage, better rates from packaging vendors, and less warehousing complexity.
-- **Vendor consolidation:** mapping supplier overlaps across all seven-plus labels and consolidating to fewer, larger-volume relationships. Better pricing, more consistent quality, simpler procurement management.
-- **Forecast-driven production:** no more producing to stock "just in case." Manufacturing runs are based on demand forecasts validated against sales pipeline data.
-- **Inventory carrying cost reduction:** through FIFO enforcement, aging management, and the elimination of ad-hoc procurement that leads to material sitting for years.
-- **Channel-specific margin optimization:** understanding the true cost-to-serve for each sales vertical and adjusting product mix and pricing to protect margins where they're being eroded.
-
-None of these are revolutionary ideas individually. The leverage is in implementing them as a connected system rather than piecemeal.
+The target isn't a single lever. It's the compounding effect of formulation standardization, packaging rationalization, vendor consolidation, forecast-driven production, tighter inventory carrying costs, and channel-specific margin optimization. None of these are revolutionary on their own. The leverage is in running them as a connected system rather than piecemeal.
 
 
 ## First 90 Days: Execution Plan
@@ -157,41 +148,21 @@ If procurement is happening without demand linkage, that stops immediately. Simi
 
 **Days 31-60: Build the Framework**
 
-**ERP modernization kicks off.** Based on the audit, we finalize the migration path, most likely Dynamics 365 Business Central. Define Phase 1 scope (inventory, production planning, procurement, dispatch, finance), bring in an implementation partner with Indian FMCG experience, and lock a go-live target.
+This is when the architecture described earlier gets committed to paper and to systems. The 3-year budget is locked (revenue, brand mix, channel targets, margin architecture). The organizational resource plan is built from that budget, with JD/KRA/KPI documented for every role. Darwinbox goes live as the HRMS backbone, with the AI task-scanning layer scheduled for Month 3-4.
 
-**The 3-year budget gets locked.** Revenue targets by year, by brand, by channel. Product range finalized: which master products, which derived SKUs, what the family structure looks like for each segment. Margin architecture completed at SKU-channel level. Sales vertical targets assigned with hard numbers.
+On the product and supply side, the SKU profitability analysis completes, master products per segment are either identified or flagged for development, and the vendor and formulation overlap map is built. The warehouse consolidation blueprint is finalized with FIFO zones and batch traceability designed in. The A2 department integration map is documented.
 
-**From the budget, the organizational resource plan gets built.** Department by department, role by role: JD, KRA, KPI, capability requirement, salary band. This tells us immediately where the gaps are that need hiring, who needs training or repositioning, and what the fully resourced organization looks like against the plan.
-
-**Darwinbox implementation begins.** Org structure, JD/KRA/KPI documentation, the review cycle framework. The AI-powered task scanning layer gets scoped and scheduled for deployment in Month 3-4.
-
-**SKU profitability analysis completes.** We know which SKUs carry the business by channel and which are dead weight. The master product for each segment is either identified from the existing portfolio or flagged for development. Product family structures are mapped: what pushes, what pulls, what's missing.
-
-**Vendor and formulation overlap mapping.** Identify where consolidation can happen across brands. Start the supplier conversations.
-
-**Warehouse consolidation blueprint finalized.** FIFO-enforced zones, demand-weighted placement, batch traceability, expiry management systems designed into the layout.
-
-The departmental integration map (the A2 layout) gets built: every department's inputs and outputs documented, every handoff protocol defined. Where handoffs are currently informal or person-dependent, the system-enforced alternative is designed.
+Execution side: ERP modernization kicks off. Based on the audit, we finalize the path (most likely Dynamics 365 Business Central), define Phase 1 scope (inventory, production planning, procurement, dispatch, finance), bring in an implementation partner with Indian FMCG experience, and lock a go-live target.
 
 ---
 
 **Days 61-90: Execute and Measure**
 
-Physical consolidation Phase 1 begins, likely finished goods warehousing into the new layout. Sets the template before we tackle raw material and production.
+Physical consolidation Phase 1 begins, likely finished goods warehousing into the new layout. This sets the template before we tackle raw material and production moves.
 
-First hires against the resource plan are initiated. Training programs for identified skill gaps are designed and scheduled.
-
-The AI-powered performance tracking tool goes into pilot, starting with 1-2 departments, scanning task completion against the weekly task sheets derived from the departmental targets.
-
-For the skin recommendation engine, the data model is scoped (skin type, concern, climate, ingredient compatibility, product mapping), a technical partner is engaged, and a prototype timeline is set. Several companies in the space have this running already, so the playbook exists. The real work is making sure our data is clean enough to feed it.
+First hires against the resource plan are initiated. Training programs for identified skill gaps begin. The AI performance tracker goes into pilot in 1-2 departments, scanning task completion against the weekly task sheets. The skin recommendation engine is scoped with a technical partner and a prototype timeline set.
 
 **Day 90 is a proper checkpoint.** I sit down with you and Vidur and go through everything: what we found, what's done, what's in progress, what the next 90 days focus on. If something turned out harder than expected, better to say that clearly and adjust.
-
----
-
-**Where we should be at Day 90:**
-
-3-year business plan locked: revenue targets, product range, margin architecture, vertical assignments, organizational resource map complete. Daily MIS live and being used. ERP migration underway with a go-live date. Darwinbox live with org structure, JD/KRA/KPI documented for every role. SKU profitability analysis done and master product strategy defined. Inventory fully assessed with aging action plans in place. FIFO systems designed into the warehouse layout and Phase 1 consolidation physically started. Vendor consolidation conversations underway. Department integration map complete. AI performance tracking in pilot. Skin recommendation engine scoped with a partner engaged. And 3-4 people stepping up into the next line of leadership.
 
 
 ## How I Work
