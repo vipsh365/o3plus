@@ -166,7 +166,7 @@ The call gets made based on a feasibility study that maps the complete trading w
 
 The ERP and MIS give us visibility. Lean manufacturing discipline is what actually moves the efficiency needle on the plant floor. For a multi-SKU cosmetics operation like Parwanoo, the specific tools I'd put in place:
 
-- **SMED (Single-Minute Exchange of Die):** With 200+ SKUs sharing production lines, changeover time between batches is one of the biggest hidden losses. SMED restructures changeover into internal and external steps so lines come back up faster. Typical target: cut changeover time by 40-50% within the first year.
+- **Quick Batch Changeover:** With 200+ SKUs sharing mixing tanks, filling lines, and packing lines, changeover time between batches is one of the biggest hidden losses. This isn't about dies and moulds (not applicable in cosmetics), it's about restructuring the cleaning, sanitization, line clearance, label and BMR handover, and line re-setup into parallel internal and external steps so lines come back up faster. Typical target: cut changeover time by 40-50% within the first year while maintaining full GMP cleaning standards and cross-contamination controls.
 - **Value Stream Mapping:** Before optimizing any line, we map the full value stream for each product family to see where waste actually lives (waiting, over-production, excess inventory, rework, motion). This is what tells us which lean tools to apply where, rather than defaulting to generic programs.
 - **5S and Visual Factory:** Sort, Set in order, Shine, Standardize, Sustain. Sounds basic. It isn't. A disciplined 5S implementation on the shop floor, combined with visual andon boards showing line status, batch progress, and deviations in real time, is what makes the MIS dashboards meaningful at the operator level too.
 - **TPM (Total Productive Maintenance):** Equipment downtime kills yield. TPM moves maintenance from reactive to planned and brings operators into first-line equipment care. Pairs with OEE (Overall Equipment Effectiveness) as the tracking metric.
@@ -175,7 +175,7 @@ The ERP and MIS give us visibility. Lean manufacturing discipline is what actual
 - **Kaizen cycles:** Weekly cross-functional improvement cycles owned by operators and supervisors, not consultants. Small, compounding improvements beat big-bang projects.
 - **MES layer (Manufacturing Execution System):** Sitting between the ERP and the shop floor. Captures real-time batch data, operator actions, equipment status, and quality checks. Feeds the MIS with live production data rather than end-of-shift manual entries.
 
-These aren't theoretical frameworks. Each one has a direct line to cost, quality, or throughput, and each one feeds structured data back into the MIS so we can measure whether the discipline is sticking. Rolled out in sequence (5S and VSM first, then SMED and TPM, then Kanban and MES integration), this is where a meaningful chunk of the 20-25% efficiency target gets delivered.
+These aren't theoretical frameworks. Each one has a direct line to cost, quality, or throughput, and each feeds structured data back into the MIS so we can measure whether the discipline is sticking. Rolled out in sequence (5S and VSM first, then Quick Changeover and TPM, then Kanban and MES integration), this is where a meaningful chunk of the 20-25% efficiency target gets delivered.
 
 
 ## Where the 20-25% Efficiency Comes From
