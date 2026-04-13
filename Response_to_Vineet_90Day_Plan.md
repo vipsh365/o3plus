@@ -1,4 +1,4 @@
-Dear Vineet,
+Dear Mr. Vineet Kapoor,
 
 Thank you for the clarity. Having the mandate spelled out like this before we start makes a real difference. I've seen too many situations where things go sideways because people assumed alignment that wasn't actually there.
 
