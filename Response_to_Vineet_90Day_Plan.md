@@ -101,6 +101,12 @@ I map this entire chain visually, on what I call an A2 layout where every depart
 
 Not monthly reports. Not weekly summaries someone compiles in Excel. Real-time dashboards that show: current inventory position (raw material, packaging, WIP, finished goods), production status against schedule, dispatch status against orders, procurement pipeline with expected delivery dates, and sales performance against targets by vertical. Leadership (you, Vidur, and the department heads) should be able to open a screen at any point and know exactly where things stand. When something slips, the dashboard flags it before someone has to discover it manually.
 
+The dashboard will also give a clear product-wise view of ingredients. For any SKU in the portfolio, we can drill into exactly what ingredients and quantities it consumes, which brands and products share those ingredients, and what the current stock position is for each one. This is what makes formulation standardization and vendor consolidation decisions data-driven instead of guesswork.
+
+**Formulation-to-inventory intelligence (forward-looking integration).**
+
+Going one step further: as R&D develops a new product and enters its formulation into the system, the ERP automatically scans against live raw material inventory. Two things surface immediately. First, which of the required ingredients we already have in stock, how much, and where. Second (and more valuable), which ingredients sitting as aging or at-risk inventory could be incorporated into the new formulation instead of fresh procurement, either as direct components or through ingredient substitution within the same functional family. This turns R&D from an isolated creative exercise into a loop that actively reduces inventory bloat while it develops new products. It's a straightforward integration once the ERP, BOM, and inventory modules are on the same platform, and it compounds savings over time.
+
 **FIFO and inventory aging management needs to be systematic, not reactive.**
 
 Every item in inventory, whether it's a raw material ingredient, a packaging component, or a finished product, gets tracked with its entry date, batch number, and shelf life. FIFO (first in, first out) is enforced at the warehouse level through system controls and physical layout design, not left to the judgment of whoever's picking stock that day.
