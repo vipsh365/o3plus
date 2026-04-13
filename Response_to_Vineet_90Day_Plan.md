@@ -141,6 +141,19 @@ For aging inventory, we maintain a live aging sheet that categorizes everything 
 The goal isn't just to clear old stock. It's to build a system where old stock stops accumulating in the first place, because procurement is forecast-linked, production is demand-driven, and the MIS flags slow-moving items early enough to act before they become a problem.
 
 
+## Manufacturing Architecture: Main Hub Plus Prototype
+
+Consolidation towards Himachal is the right primary move, but the manufacturing structure shouldn't be single-point. The entire process is designed around one main facility to reduce manpower, optimize resource utilization, and assimilate inventory planning with logistics to bring cost down. Alongside that main hub, we always run one smaller prototype facility at a different location. The reason is operational insurance: an administration issue, a taxation change, a logistics disruption, a manpower shortage, or any other regulatory hit on a single location cannot be allowed to hamper the entire production chain.
+
+The smaller prototype can take one of three forms, and the choice depends on the situation:
+
+- **Own smaller facility:** full control, higher capex, useful when the product mix is sensitive or strategic.
+- **Third-party contract manufacturing at a larger scale:** lower capex and faster to activate, but requires tight quality governance and IP protection on formulations.
+- **Multi-vendor contract manufacturing:** distributes risk across several partners, useful when volume is high but switching costs need to stay low.
+
+The call gets made based on a feasibility study that maps the complete trading window pyramid: demand by region, tax and incentive landscape by state, logistics costs to serve each major market, contract manufacturer capacity and reliability in each geography, and the trade-off between cost of redundancy and cost of disruption. This isn't a one-time decision. It gets reviewed annually as the business scales and the external landscape shifts.
+
+
 ## The Lean Manufacturing Toolkit
 
 The ERP and MIS give us visibility. Lean manufacturing discipline is what actually moves the efficiency needle on the plant floor. For a multi-SKU cosmetics operation like Parwanoo, the specific tools I'd put in place:
